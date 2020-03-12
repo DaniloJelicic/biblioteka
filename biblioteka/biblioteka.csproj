@@ -179,7 +179,7 @@
     <Content Include="Views\Knjiga\Izmeni.cshtml" />
     <Content Include="Views\Ucenik\NoviUcenik.cshtml" />
     <Content Include="Views\Knjiga\Index.cshtml" />
-    <Content Include="Views\Ucenik\index.cshtml" />
+    <Content Include="Views\Ucenik\Index.cshtml" />
     <Content Include="Views\Ucenik\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>

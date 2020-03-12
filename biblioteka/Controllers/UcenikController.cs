@@ -17,6 +17,7 @@ namespace WebApplication1.Controllers
 
             return View(ucenici);
         }
+
         public ActionResult Create()
         {
             return View();
@@ -29,7 +30,7 @@ namespace WebApplication1.Controllers
             BibliotekaDB bdb = new BibliotekaDB();
 
             bdb.Ucenik.Add(um);
-            bdb.SaveChanges(); 
+            bdb.SaveChanges();
 
             return RedirectToAction("Index");
         }
